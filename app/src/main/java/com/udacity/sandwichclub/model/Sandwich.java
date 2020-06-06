@@ -1,5 +1,6 @@
 package com.udacity.sandwichclub.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Sandwich {
@@ -38,7 +39,7 @@ public class Sandwich {
         return alsoKnownAs;
     }
 
-    public void setAlsoKnownAs(List<String> alsoKnownAs) {
+    public void setAlsoKnownAs(ArrayList<String> alsoKnownAs) {
         this.alsoKnownAs = alsoKnownAs;
     }
 
